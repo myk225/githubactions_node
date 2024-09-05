@@ -8,7 +8,7 @@ app.get('/health',(req,res)=>{
 })
 
 app.get("/",(req,res)=>{
-    res.json({message:"Up and running"})
+    res.json({message:"Up and running deploy test"})
 })
 
 app.listen(port,()=>console.log(`Server Started On ${port}`));
