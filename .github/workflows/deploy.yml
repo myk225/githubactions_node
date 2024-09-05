@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Deploy to server
-        uses: actions/set-up-node@v3      
+        uses: actions/setup-node@v3      
         with:
           node-version: '18'
           host: ${{secrets.HOST}}
