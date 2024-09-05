@@ -5,8 +5,7 @@ name: Deploy
 on:
   push:
     branches: ["main"]
-  pull:
-    branches: ["main"]
+ 
 
 #authenticate on server via ssh
 # run deployment scrip
